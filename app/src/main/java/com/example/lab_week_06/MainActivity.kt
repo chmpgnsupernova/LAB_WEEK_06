@@ -38,25 +38,44 @@ class MainActivity : AppCompatActivity() {
         catAdapter.setData(
             listOf(
                 CatModel(
-                    Gender.Male,
-                    CatBreed.BalineseJavanese,
-                    "Fred",
-                    "Silent and deadly",
-                    "https://cdn2.thecatapi.com/images/7dj.jpg"
+                    Gender.Male, CatBreed.BalineseJavanese, "Leo", "Loves to nap in the sun.",
+                    "https://cdn2.thecatapi.com/images/47s.jpg"
                 ),
                 CatModel(
-                    Gender.Female,
-                    CatBreed.ExoticShorthair,
-                    "Wilma",
-                    "Cuddly assassin",
-                    "https://cdn2.thecatapi.com/images/egv.jpg"
+                    Gender.Female, CatBreed.ExoticShorthair, "Luna", "Master of the midnight zoomies.",
+                    "https://cdn2.thecatapi.com/images/52b.jpg"
                 ),
                 CatModel(
-                    Gender.Unknown,
-                    CatBreed.AmericanCurl,
-                    "Curious George",
-                    "Award winning investigator",
-                    "https://cdn2.thecatapi.com/images/bar.jpg"
+                    Gender.Male, CatBreed.AmericanCurl, "Milo", "Will do anything for a treat.",
+                    "https://cdn2.thecatapi.com/images/8kl.jpg"
+                ),
+                CatModel(
+                    Gender.Female, CatBreed.ExoticShorthair, "Chloe", "Expert at finding comfortable spots.",
+                    "https://cdn2.thecatapi.com/images/a2n.jpg"
+                ),
+                CatModel(
+                    Gender.Male, CatBreed.BalineseJavanese, "Simba", "Thinks he's the king of the house.",
+                    "https://cdn2.thecatapi.com/images/b63.jpg"
+                ),
+                CatModel(
+                    Gender.Female, CatBreed.AmericanCurl, "Bella", "Graceful and elegant, until she trips.",
+                    "https://cdn2.thecatapi.com/images/dbt.jpg"
+                ),
+                CatModel(
+                    Gender.Male, CatBreed.ExoticShorthair, "Oliver", "A sophisticated gentleman.",
+                    "https://cdn2.thecatapi.com/images/MTc5OTM0MA.jpg"
+                ),
+                CatModel(
+                    Gender.Male, CatBreed.AmericanCurl, "Max", "Loud purrs and a love for boxes.",
+                    "https://cdn2.thecatapi.com/images/96b.jpg"
+                ),
+                CatModel(
+                    Gender.Female, CatBreed.BalineseJavanese, "Nala", "Agile hunter of toy mice.",
+                    "https://cdn2.thecatapi.com/images/afr.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown, CatBreed.ExoticShorthair, "Oscar", "Grumpy face, heart of gold.",
+                    "https://cdn2.thecatapi.com/images/c6.jpg"
                 )
             )
         )
